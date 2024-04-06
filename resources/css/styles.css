@@ -141,3 +141,19 @@ section .subtitle{
     align-items: center;
     padding: 2rem;
 }
+
+@media  (max-width : 1200px) {
+    #work img {
+        width: 100%;
+        max-width: 100%;
+        margin: 0;
+        border: 0.5rem solid var(--light-color);
+    }
+    #work .left{
+        margin: 0.5rem 0 0.5rem 0;
+    }
+    
+    #work .right{
+        margin: 0.5rem 0 0.5rem 0;
+    }
+}
