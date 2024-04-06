@@ -1,0 +1,11 @@
+header{
+    display: flex;
+    align-items: center;
+    background-color: #31343D;
+}
+
+header h1 {
+    color: #31343D;
+    background-color: #92CCCD;
+    min-width: 300px;
+}
