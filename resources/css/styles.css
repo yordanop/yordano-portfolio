@@ -35,11 +35,14 @@ header a{
 
 }
 
-main section{
+section{
     display: flex;
     flex-direction: row;
 }
 
+section .subtitle{
+    min-width: 2.5rem;
+}
 .subheader{
     display: inline-flex;
     justify-content: right;
