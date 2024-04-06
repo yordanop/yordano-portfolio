@@ -35,6 +35,11 @@ header a{
 
 }
 
+main section{
+    display: flex;
+    flex-direction: row;
+}
+
 .subheader{
     display: inline-flex;
     justify-content: right;
