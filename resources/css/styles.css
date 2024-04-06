@@ -73,9 +73,6 @@ section .subtitle{
     padding: 0 1rem;
 }
 
-
-
-
 .subheader{
     display: inline-flex;
     justify-content: right;
@@ -107,13 +104,30 @@ section .subtitle{
 
 #work .content{
     display: flex;
+    justify-content: space-evenly;
     flex-wrap: wrap;
 }
 
 #work img {
+    box-sizing: border-box;
+    width: 50%;
+    max-width: calc(50% - 0.5rem);
+    border: 0.5rem solid var(--light-color);
+
+}
+
+#work .left{
+    margin: 0.5rem 0.5rem 0.5rem 0;
+}
+
+#work .right{
+    margin: 0.5rem 0 0.5rem 0.5rem;
+}
+
+#work .image-1 {
     width: 100%;
     max-width: 2400px;
-    border: 0.5rem solid var(--light-color);
+    margin: 0 0 0.5rem 0;
 }
 
 #contact-me p{
