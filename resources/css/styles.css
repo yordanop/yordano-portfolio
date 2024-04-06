@@ -1,11 +1,38 @@
+body {
+    margin: 0;
+}
+
 header{
     display: flex;
     align-items: center;
+    justify-content: space-between;
     background-color: #31343D;
+    font-size: 1.4rem;
+    font-weight: bold;
+    
 }
+
+header a{
+    padding: 0.3em;
+    color: #92CCCD;
+    margin-bottom: 1%;}
 
 header h1 {
     color: #31343D;
+    height: 1.5em;
+    padding: 1%;
     background-color: #92CCCD;
     min-width: 300px;
+    line-height: 140%;
+    font-size: 2rem;
+    
+    
 }
+
+#link-to-sec{
+    margin-right: 5%;
+}
+
+/* header a{
+    color: #92CCCD;
+} */
