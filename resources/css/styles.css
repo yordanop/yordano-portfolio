@@ -75,17 +75,6 @@ section .subtitle{
 
 
 
-.contact-me p{
-    font-size: 1.5rem;
-    color: var(--dark-color);
-    font-weight: bolder;
-}
-
-.contact-me .content{
-    justify-content: space-evenly;
-    align-items: center;
-    padding: 2rem;
-}
 
 .subheader{
     display: inline-flex;
@@ -114,4 +103,27 @@ section .subtitle{
 
 #link-to-sec{
     margin-right: 5%;
+}
+
+#work .content{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#work img {
+    width: 100%;
+    max-width: 2400px;
+    border: 0.5rem solid var(--light-color);
+}
+
+#contact-me p{
+    font-size: 1.5rem;
+    color: var(--dark-color);
+    font-weight: bolder;
+}
+
+#contact-me .content{
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 2rem;
 }
