@@ -108,20 +108,19 @@ section .subtitle{
     flex-wrap: wrap;
 }
 
-#work a {
+#work .imag-cntr {
     box-sizing: border-box;
-    height: 0;
-    padding: 20%;
+    height: 300px;
     width: 50%;
     max-width: calc(50% - 0.5rem);
     border: 0.5rem solid var(--light-color);
-    transition: 0.5s;
-    display: block;
-    background-image: url(../images/coming-soon.png);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
     position: relative;
+    transition: 0.5s;
+}
+
+#work img{
+    height: 100%;
+    width: 100%;
 }
 
 #work .left{
@@ -132,19 +131,21 @@ section .subtitle{
     margin: 0.5rem 0 0.5rem 0.5rem;
 }
 
-#work .link-1 {
+#work .first {
     width: 100%;
-    height: 35rem;
     max-width: 2400px;
     margin: 0 0 0.5rem 0;
 }
 
-#work .link-1{
-    background-image: url(../images/Horiseon-project.png);
+#work p{
+    position: absolute;
+    color: var(--dark-color);
+    background-color: var(--light-color);
+    max-width: 20%;
 }
 
-#work .link-2{
-    background-image: url(../images/Yordano-portfolio.png);
+.imag-cntr p:nth-child(2){
+    top: 1.5rem;
 }
 
 
@@ -161,7 +162,7 @@ section .subtitle{
 }
 
 @media  (max-width : 1200px) {
-    #work a {
+    #work .imag-cntr {
         width: 100%;
         max-width: 100%;
         margin: 0;
