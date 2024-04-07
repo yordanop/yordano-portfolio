@@ -113,6 +113,7 @@ section .subtitle{
     width: 50%;
     max-width: calc(50% - 0.5rem);
     border: 0.5rem solid var(--light-color);
+    background-color: #203E62;
 
 }
 
@@ -128,6 +129,19 @@ section .subtitle{
     width: 100%;
     max-width: 2400px;
     margin: 0 0 0.5rem 0;
+}
+
+.imag-cntr p{
+    display: inline;
+    font-size: 1rem;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+#imag-cntr p:nth-child(0){
+    font-size: 4564564564564564564560rem;
+    color: #31343D;
+    height: 100%;
+    width: 100%;
 }
 
 #contact-me p{
