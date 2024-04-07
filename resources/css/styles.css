@@ -119,11 +119,14 @@ section .subtitle{
 #work img{
     height: 100%;
     width: 100%;
+    opacity: 0.4;
+    transition: 0.2s;
 }
 
 #work p{
     color: var(--dark-color);
     text-align: left;
+    opacity: 1;
 }
 
 #work a{
@@ -146,6 +149,11 @@ section .subtitle{
     transition: 0.5s;
 }
 
+#work img:hover{
+    opacity: 1;
+    transition: 0.2s;
+}
+
 #work .left{
     margin: 0.5rem 0.5rem 0.5rem 0;
 }
@@ -166,6 +174,8 @@ section .subtitle{
     color: var(--light-color);
     align-self: flex-end;
     bottom: 1rem;
+    opacity: 1;
+    z-index: 1;
 } 
 
 #work .imag-cntr p:nth-child(1){
