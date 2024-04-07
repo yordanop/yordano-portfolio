@@ -1,7 +1,10 @@
 /* declaring variables for colors */
 :root{
-    --light-color:#92CCCD;
-    --dark-color:#31343D;
+    --light-color:#F9F871;
+    --dark-color:#28626F;
+    --dark-text-color: #324A51;
+    --stripe-1:#627B82;
+    --stripe-2:#FFF7D6;
 }
 
 
@@ -9,7 +12,7 @@
 /* styling the basics that would be needed in all project */
 body {
     margin: 0;
-    background-color: #EEEDF5;
+    background-color: #F8FFF8;
 }
 
 p{
@@ -19,9 +22,9 @@ p{
 a {
     text-underline-offset: 0.7rem;
     text-decoration-thickness: 0.2rem;
-    color: var(--light-color);
-    
+    color: var(--dark-color);  
 }
+
 
 
 /* Styling the Header section */
@@ -52,6 +55,11 @@ header a{
     font-size: 1.5rem;
 }
 
+header a:hover{
+    background-color: var(--light-color);
+    transition-behavior: ;
+}
+
 .subheader{
     display: inline-flex;
     justify-content: space-between;
@@ -59,7 +67,7 @@ header a{
     width: 100%;
     height: 15rem;
     min-height: 10px;
-    background: repeating-linear-gradient(-40deg, #779FB9 10%, #779FB9 20%, #203E62 20%, #203E62 30%);
+    background: repeating-linear-gradient(-40deg, var(--stripe-1) 10%, var(--stripe-1) 20%, var(--stripe-2) 20%, var(--stripe-2) 30%);
 }
 
 .subheader img{
@@ -102,7 +110,7 @@ section .content {
 }
 
 section .subtitle{
-    color: #475970;
+    color: var(--dark-text-color);
     font-size: 2.4rem !important; 
     width: 10rem;
     min-width: 200px;
@@ -115,6 +123,10 @@ section .subtitle{
 }
 
 /* styling specifics for each section */
+
+#about-me P{
+    color: var(--dark-text-color);
+}
 
 #work img{
     height: 100%;
@@ -200,8 +212,8 @@ section .subtitle{
     padding: 1rem;
 }
 
-#contact-me a{
-    color: var(--dark-color);
+#contact-me a, #contact-me p{
+    color: var(--dark-text-color);
 }
 
 /* media query to adpat the size of the img with the projects */
