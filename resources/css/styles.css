@@ -81,9 +81,17 @@ section .subtitle{
 
 .subheader{
     display: inline-flex;
-    justify-content: right;
+    justify-content: space-between;
     align-items: end;
-    
+    width: 100%;
+    height: 15rem;
+    min-height: 10px;
+    background: repeating-linear-gradient(-40deg, #779FB9 10%, #779FB9 20%, #203E62 20%, #203E62 30%);
+}
+
+.subheader img{
+    height: 70%;
+    margin: 2rem ;
 }
 
 .subheader h2{
@@ -95,13 +103,6 @@ section .subtitle{
     line-height: 140%;
     margin-right: 3rem;
     overflow: hidden;
-}
-
-.subheader{
-    width: 100%;
-    height: 15rem;
-    min-height: 10px;
-    background: repeating-linear-gradient(-40deg, #779FB9 10%, #779FB9 20%, #203E62 20%, #203E62 30%);
 }
 
 #link-to-sec{
