@@ -7,7 +7,9 @@
     --stripe-2:#FFF7D6;
 }
 
-
+html {
+    scroll-behavior: smooth;
+  }
 
 /* styling the basics that would be needed in all project */
 body {
